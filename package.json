@@ -1,0 +1,33 @@
+{
+  "name": "dsh-preset-github-plugin-security-review",
+  "version": "1.0.0",
+  "description": "DSH agent preset: a two-role (recon scout -> security auditor) pipeline that statically reviews plugin source downloaded from GitHub. Never installs, never executes, and never runs any code from the reviewed repository.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./preset.patch.yml": "./preset.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "preset.patch.yml",
+    "README.md",
+    "README.zh.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./preset.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "agent-preset",
+    "security",
+    "supply-chain",
+    "static-analysis",
+    "audit"
+  ],
+  "license": "MIT"
+}
