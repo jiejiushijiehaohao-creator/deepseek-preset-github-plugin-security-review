@@ -1,5 +1,5 @@
 # GitHub Plugin Security Review Squad
-
+[![validate](https://github.com/jiejiushijiehaohao-creator/deepseek-preset-github-plugin-security-review/actions/workflows/validate.yml/badge.svg)](https://github.com/jiejiushijiehaohao-creator/deepseek-preset-github-plugin-security-review/actions/workflows/validate.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 English | [中文](README.zh.md)
 
 A **DSH agent preset**: a two-role pipeline that reviews the source of a plugin downloaded from GitHub — statically, without ever installing or executing it.
