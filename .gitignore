@@ -1,0 +1,22 @@
+# Node
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+# DSH local state
+.plugin-manager/
+.dsh/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# Local rollback snapshots of the author's own DSH profile — never publish these
+cordis.patch.yml.bak
+*.patch.yml.bak
+*.bak
