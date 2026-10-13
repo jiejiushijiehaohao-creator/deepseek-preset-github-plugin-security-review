@@ -1,5 +1,5 @@
 # GitHub插件安全审查特工队
-
+[![validate](https://github.com/jiejiushijiehaohao-creator/deepseek-preset-github-plugin-security-review/actions/workflows/validate.yml/badge.svg)](https://github.com/jiejiushijiehaohao-creator/deepseek-preset-github-plugin-security-review/actions/workflows/validate.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [English](README.md) | 中文
 
 一个 DSH **Agent 预设（preset）**：双角色流水线，审查从 GitHub 下载或克隆来的插件源码安全性。
